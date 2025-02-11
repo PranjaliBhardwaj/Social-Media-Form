@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Manrope', sans-serif;
+}
+
+/* Centralize the form with 100px margin from top and left */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 100px 0 0 400px;
+}
+
+/* Step Heading styling */
+h2 {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+
+/* Styling for form input fields */
+.form-input {
+  padding: 20px;
+  background-color: white;
+  border-radius: 9999px;
+  border: 1px solid #ccc;
+  width: 600px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: border-color 0.3s ease;
+  font-family: 'Manrope', sans-serif;
+}
+
+.form-input::placeholder {
+  color: grey;
+}
+
+.form-input:focus {
+  background-color: #f0f0f0;
+  outline: none;
+  border-bottom: 2px solid black;
+}
+
+/* Multimedia file upload fields */
+.upload-field {
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  border: 1px dashed #ccc;
+  width: 600px;
+  height: 150px;
+  margin-left: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  color: grey;
+}
+
+/* Upload button styling: black with white text */
+.upload-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Change to white background and black text on hover */
+.upload-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Styling for form button to match input fields */
+.form-button {
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-left: -100px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
+
+.form-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.form-button:disabled {
+  background-color: #2a2929;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.form-button:active {
+  background-color: black;
+  color: white;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.error-input {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+  margin-left: 20px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+/* Button group styling */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-preview {
+  margin-top: 20px;
+}
+
+.preview-image {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: black;
+  margin-top: 100px;
+  margin-left: 400px;
+}
+h2{
+  margin-top: -40px;
+}
+
+.form-button-next {
+  padding: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: black;
+  border: 1px solid #ccc;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 300px;
+  margin-bottom: 100px;
+}
